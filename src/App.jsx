@@ -4,7 +4,7 @@ function App() {
   const [projects, setProjects] = useState([]);
   const [selectedProject, setSelectedProject] = useState(null);
 
-  const token = "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0LCJleHAiOjE3ODEyNzM0MTB9.KA-PMV21CN6gazIQx4TrOZLLYHSdD3vfb6YN8ExdFvA";
+  const token = "TOKEN_GOES_HERE";
 
   useEffect(() => {
     async function getProjects() {
